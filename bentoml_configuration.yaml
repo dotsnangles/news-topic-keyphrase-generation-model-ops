@@ -1,0 +1,5 @@
+version: 1
+runners:
+  news-topic-keyphrase-generator-t5-base:
+    resources:
+      nvidia.com/gpu: [0]
