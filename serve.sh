@@ -1,1 +1,0 @@
-BENTOML_CONFIG=bentoml_configuration.yaml bentoml serve service.py:svc --reload

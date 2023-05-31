@@ -1,9 +1,0 @@
-version: 1
-runners:
-  news-topic-keyphrase-generator-t5-base:
-    resources:
-      nvidia.com/gpu: [0, 1, 2, 3, 4, 5]
-  batching:
-      enabled: true
-      max_batch_size: 8
-      max_latency_ms: 500

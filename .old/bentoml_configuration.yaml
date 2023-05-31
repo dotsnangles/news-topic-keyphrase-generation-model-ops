@@ -1,0 +1,9 @@
+version: 1
+runners:
+  news-topic-keyphrase-generator-t5-base:
+    resources:
+      nvidia.com/gpu: [0]
+  batching:
+      enabled: false
+      # max_batch_size: 8
+      # max_latency_ms: 500

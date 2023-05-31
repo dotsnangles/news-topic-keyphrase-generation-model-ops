@@ -2,7 +2,7 @@ import bentoml
 from bentoml.io import JSON
 from transformers import AutoTokenizer
 
-ckpt = "checkpoints/paust_pko_t5_base_v4_run_1"
+ckpt = "checkpoints/paust_pko_t5_base_v4_run_18"
 tokenizer = AutoTokenizer.from_pretrained(ckpt)
 
 prefix = "generate keyphrases: "
