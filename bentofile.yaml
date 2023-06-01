@@ -4,6 +4,9 @@ labels:
   stage: dev
 include:
 - "service.py"
+- "checkpoints/paust_pko_t5_base_v4_run_18/special_tokens_map.json"
+- "checkpoints/paust_pko_t5_base_v4_run_18/tokenizer_config.json"
+- "checkpoints/paust_pko_t5_base_v4_run_18/tokenizer.json"
 python:
   packages:
   - "torch==1.13.1"
