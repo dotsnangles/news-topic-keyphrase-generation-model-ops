@@ -9,4 +9,10 @@ bentoml build
 bentoml containerize news-topic-keyphrase-generator-t5-base:latest
 
 ### launch containerized bento service
-# docker run --gpus all -it --rm -p 3000:3000 news-topic-keyphrase-generator-t5-base:[TAG] serve
+# docker run \
+# --gpus all -it --rm \
+# -p 6666:3000 \
+# --name news-topic-keyphrase-generator-t5-base-server \
+# news-topic-keyphrase-generator-t5-base:wxtozqabagvmmasc serve
+
+### endpoint = 'http://127.0.0.1:6666/news_topic_keyphrase_generator_t5_base'
